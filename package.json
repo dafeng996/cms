@@ -1,0 +1,14 @@
+{
+  "name": "cms-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "webDev": "yarn workspace web dev",
+    "svrDev": "supervisor ./packages/service/bin/www"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
